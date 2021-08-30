@@ -1,6 +1,7 @@
 const { Model, DataTypes, DECIMAL } = require('sequelize');
 const sequelize = require('../config/connection');
 
+
 // create our Post model
 class Product extends Model {}
 
